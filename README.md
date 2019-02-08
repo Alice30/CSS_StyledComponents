@@ -137,12 +137,12 @@ Styled composants offrent d'autres fonctions que vous pouvez utilisez pour crée
 
 **On peut remarquer dans l'exemple les tirets qui sont du CSS pure et les backtick qui viennent du JS pure qui sont un moyen de passer un argument à une fonction.**
 
-###Utiliser les props pour personnaliser les composants
+### Utiliser les props pour personnaliser les composants
 
 
 Quand on passe des props à un styled composant, ce dernier les passera au DOM node mounted.
 
-Par example, voici comment nous passons le ```placeholder``` et ```type```props à un ```input``` composant :
+Par exemple, voici comment nous passons le ```placeholder``` et ```type```props à un ```input``` composant :
 
 ```
 
@@ -180,7 +180,7 @@ render(
 
 ```
 
-###Étendre un styled composant existant
+### Étendre un styled composant existant
 
 Si on a déjà un styled composant et qu'on souhaite en créer un autre similaire, on peut utiliser ```extend```
 
