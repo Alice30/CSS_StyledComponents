@@ -1,13 +1,13 @@
 ![](https://s3.amazonaws.com/ckl-website-static/wp-content/uploads/2017/07/Banner_css-1280x680.png)
 
-#CSS style en React
+# CSS style en React
 
-###Comment utiliser CSS pour donner un style à son application React ?
+### Comment utiliser CSS pour donner un style à son application React ?
 
 Il existe 3 différentes méthodes d'ajouter du style aux composants :
 
 
-###Utiliser les classes et fichier CSS :
+### Utiliser les classes et fichier CSS :
 Utiliser des classes, il suffit d'utiliser un fichier CSS pour cibler les classes.
 
 Exemple :
@@ -33,7 +33,7 @@ import './style.css'
 ```
 
 
-###Utiliser attribut style attaché à JSX élément :
+### Utiliser attribut style attaché à JSX élément :
 
 Utiliser l'attribut style attaché à un JSX élément. En utilisant cette deuxième méthode vous n'avez pas besoin d'un fichier CSS séparé.
 
@@ -62,7 +62,7 @@ Le style est écrit en camelCase au lieu des tirets.
 
 **Les styles ont l'avantage d'être local au composant, donc ils ne peuvent pas affecter d'autres composants de l'app. Ce n'est pas le cas quand on utilise les classes et un fichier externe CSS**
 
-###Utiliser les CSS modules :
+### Utiliser les CSS modules :
 
 (manière d'écrire du CSS qui s'applique seulement a un composant, sans affecter à d'autres élément dans la page).
 
@@ -93,12 +93,12 @@ Les styles composants sont une des nouvelles manières d'utiliser le CSS dans le
 
 Les styled composants permettent d'écrire du CSS ou SASS dans les composants sans se préoccuper des collisions de noms de classes.
 
-###Installation :
+### Installation :
 
 
 On peut installer les styled composants en utilisant yarn ou npm, et ajouter dans les fichiers ```import styled from 'styled-components'```.
 
-###Commencer avec styled component :
+### Commencer avec styled component :
 
 
 Styled component enlève le mapping entre components et styles. Cela signifie que quand on défini les styles, on est en réalité en train de créer un composant React normal, qui a les styles rattachés dessus.
